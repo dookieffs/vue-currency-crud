@@ -1,0 +1,26 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://next.vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify' with (
+//   $color-pack: false
+// );
+
+.v-field, .v-btn--elevated
+{
+    box-shadow: none !important;
+}
+
+.v-field--variant-solo
+{
+    box-shadow: none !important;
+    border: 1px solid #CCCCCC !important;
+}
+
+.v-field--focused
+{
+    border: 1px solid #FF6600 !important;
+}
